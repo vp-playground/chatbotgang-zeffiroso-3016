@@ -1,0 +1,7 @@
+import{j as d}from"./emotion-react-jsx-runtime.browser.esm-B6nDGTOp.js";import{d as n}from"./define-D3i8B5cg.js";import{r as t}from"./index-qCb0-TeD.js";import{u as g}from"./useIsTouchOnlyLikeDeviceStore-ChrBTq0u.js";import{f as h}from"./flow-Caod8tMH.js";import{u as m}from"./uniq-BL7hiWVS.js";import{T as y}from"./index-CiDJ99qe.js";const c=n()(["hover","focus","click","contextMenu"]),a=n()(["info"]),T=[...c,...a],v=t.forwardRef(function({trigger:o="hover",...l},p){const r=g(),f=t.useMemo(()=>{const u=Array.isArray(o)?o:[o];return{trigger:h(()=>u.flatMap(e=>e==="info"?[r?"click":"hover"]:r&&e!=="click"?[]:[e]),e=>m(e))()}},[r,o]);return d(y,{...l,...f,ref:p})}),i=Object.assign(v,{originalTriggers:c,externalTriggers:a,triggers:T});try{i.displayName="Tooltip",i.__docgenInfo={description:`A wrapper around the antd Tooltip component that automatically disables the
+tooltip when the user is on a touch device by default.
+
+There is an additional trigger type called "info" that will only trigger on
+hover on non-touch devices and on click on touch devices.`,displayName:"Tooltip",props:{trigger:{defaultValue:{value:"hover"},description:`The trigger types for the tooltip. If the trigger type is "info", the
+tooltip will trigger on hover for non-touch devices and on click for touch devices.
+On touch devices, all trigger types except "click" will be ignored.`,name:"trigger",required:!1,type:{name:'Arrayable<"contextMenu" | "focus" | "click" | "hover" | "info">'}}}}}catch{}export{i as T};

@@ -1,0 +1,6 @@
+import{c as p}from"./emotion-styled-base.browser.esm-DcS0-Etw.js";import{t as n}from"./index-BA0eH0Wu.js";import{j as a}from"./emotion-react-jsx-runtime.browser.esm-B6nDGTOp.js";import{a as m}from"./assignDisplayName-lT0r0-ot.js";import{C as l}from"./emotion-react.browser.esm-DKbCFQzN.js";import{r as d}from"./index-qCb0-TeD.js";import{P as c}from"./index-8dFQQpR3.js";const o=p("div",{target:"eacpyy00",label:"emotion-Paper"})("@layer style-component{&{border-radius:4px;background:",n.colors.white,";box-shadow:2px 2px 10px rgb(189 189 189 / 25%);}}");try{o.displayName="Paper",o.__docgenInfo={description:"",displayName:"Paper",props:{theme:{defaultValue:null,description:"",name:"theme",required:!1,type:{name:"Theme"}},as:{defaultValue:null,description:"",name:"as",required:!1,type:{name:"ElementType<any, keyof IntrinsicElements>"}}}}}catch{}const e=d.forwardRef(function(t,s){return a(l,{children:({css:i})=>a(c,{ref:s,overlayClassName:i`
+              .ant-popover-inner {
+                padding: 0;
+                box-shadow: none;
+              }
+            `,...t})})});m(e,"Trigger");try{e.displayName="Trigger",e.__docgenInfo={description:"Similar to `Popover` but disable the container styles.",displayName:"Trigger",props:{}}}catch{}export{o as P,e as T};

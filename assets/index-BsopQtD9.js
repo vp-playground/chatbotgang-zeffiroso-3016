@@ -1,0 +1,5 @@
+import{j as a}from"./emotion-react-jsx-runtime.browser.esm-B6nDGTOp.js";import{a as l}from"./assignDisplayName-lT0r0-ot.js";import{r as m}from"./index-qCb0-TeD.js";import{R as c}from"./ResultListItem-BhaDeOrm.js";import{d as p}from"./index-gEP6Tn1u.js";const s="ul",n=p({ResultList:{name:"yhrej-emotion-ResultList",styles:"margin:0;display:flex;flex-direction:column;align-items:stretch;gap:8px;font-size:0.875rem;label:emotion-ResultList;"}}),d=m.forwardRef(function({component:i=s,...r},e){return a(i,{css:n.ResultList,...r,...e?{ref:e}:null})}),t=Object.assign(d,{defaultRootElement:s,styles:n,Item:c});l(t,"ResultList");try{t.displayName="ResultList",t.__docgenInfo={description:`A styled list component that displays results.
+
+Since this component has not yet been standardized in our design system,
+you can refer to the designs
+[here](https://www.figma.com/design/taxRwfDgzLjfhtSzwRtcdW/Chat-Commerce?node-id=7055-10995&node-type=frame&t=76ZfHrzCBrsKA4Rv-0).`,displayName:"ResultList",props:{component:{defaultValue:null,description:"",name:"component",required:!0,type:{name:"BaseRootElementType"}}}}}catch{}export{t as R};

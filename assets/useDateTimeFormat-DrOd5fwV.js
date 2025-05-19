@@ -1,0 +1,1 @@
+import{r as t}from"./index-qCb0-TeD.js";import{u as r}from"./useLanguage-Cw5TNOAB.js";import{m as s}from"./merge-BUZDYRsv.js";const n={},p=(e={})=>{const m=r(),a=t.useMemo(()=>e.locales||m,[m,e]),o=t.useMemo(()=>s({},n,e.dateTimeFormatOptions),[e.dateTimeFormatOptions]);return t.useMemo(()=>new Intl.DateTimeFormat(a,o),[a,o])};export{p as u};

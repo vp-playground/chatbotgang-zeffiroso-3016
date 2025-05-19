@@ -1,0 +1,1 @@
+import{s as e}from"./types-Dn-G_zsM.js";const t=e().refine(r=>{try{return Intl.NumberFormat("en-US",{style:"currency",currency:r}),!0}catch{return!1}},{message:"Invalid ISO 4217 currency code"}).brand();export{t as I};

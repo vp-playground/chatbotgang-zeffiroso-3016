@@ -1,0 +1,1 @@
+function c(t,r){var e=arguments.length>2&&arguments[2]!==void 0?arguments[2]:[];return e.length>=r?t.apply(null,e.slice(0,r).reverse()):function(){for(var u=arguments.length,a=new Array(u),n=0;n<u;n++)a[n]=arguments[n];return c(t,r,e.concat(a))}}export{c};

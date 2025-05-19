@@ -1,0 +1,1 @@
+import{u as r}from"./useTranslation-XVYQH2mr.js";function n(t){return t.startsWith("zh")?"zh-hant":t.startsWith("en")?"en":t.startsWith("th")?"th":t.startsWith("ja")?"ja":"en"}function a(){const{i18n:t}=r();return n(t.language)}export{a as u};

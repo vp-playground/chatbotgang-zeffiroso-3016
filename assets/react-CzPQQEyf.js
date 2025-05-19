@@ -1,0 +1,1 @@
+import{R as n}from"./index-qCb0-TeD.js";import{c}from"./vanilla-DtBHub2h.js";const u=t=>t;function a(t,e=u){const s=n.useSyncExternalStore(t.subscribe,()=>e(t.getState()),()=>e(t.getInitialState()));return n.useDebugValue(s),s}const o=t=>{const e=c(t),s=r=>a(e,r);return Object.assign(s,e),s},m=t=>t?o(t):o;export{m as c};

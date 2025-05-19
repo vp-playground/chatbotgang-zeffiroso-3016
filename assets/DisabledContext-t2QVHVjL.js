@@ -1,0 +1,1 @@
+import{D as o,a}from"./DisabledContext-NEMnJEZA.js";import{r as t}from"./index-qCb0-TeD.js";const m=o,n=a;function i(){return t.useContext(n)}function b(){const e=i();return t.useCallback((r,s=!0)=>r===!0?!0:r===!1&&!s?!1:e,[e])}export{m as D,i as a,b as u};

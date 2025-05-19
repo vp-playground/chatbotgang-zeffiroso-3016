@@ -1,0 +1,1 @@
+import{f as l}from"./flow-DLnCjMlr.js";function u(e,t=1){const o=[],i=Math.floor(t),r=(s,c)=>{for(let n=0;n<s.length;n++){const f=s[n];Array.isArray(f)&&c<i?r(f,c+1):o.push(f)}};return r(e,0),o}function p(...e){const t=u(e,1);if(t.some(o=>typeof o!="function"))throw new TypeError("Expected a function");return l(...t)}export{p as f};

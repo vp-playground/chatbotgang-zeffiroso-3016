@@ -1,0 +1,1 @@
+import{r as o}from"./index-qCb0-TeD.js";import{u as n}from"./index-C4jkG3Yz.js";function c(r,e){const t=o.useRef(e);return o.useEffect(()=>{t.current=r},[r]),t.current}const a=(r,e)=>{const t=n(e),s=c(r,r);o.useEffect(()=>{r!==s&&t.current(r,s)},[r,s,t])};export{c as a,a as u};

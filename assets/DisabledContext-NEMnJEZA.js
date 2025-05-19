@@ -1,0 +1,1 @@
+import{r as t}from"./index-qCb0-TeD.js";const r=t.createContext(!1),i=o=>{let{children:a,disabled:e}=o;const s=t.useContext(r);return t.createElement(r.Provider,{value:e??s},a)};export{i as D,r as a};

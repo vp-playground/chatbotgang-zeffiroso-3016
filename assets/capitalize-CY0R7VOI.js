@@ -1,0 +1,1 @@
+var e={},a;function t(){if(a)return e;a=1,Object.defineProperty(e,"__esModule",{value:!0}),e.capitalize=void 0;function r(i){return i.charAt(0).toUpperCase()+i.slice(1)}return e.capitalize=r,e}export{t as r};

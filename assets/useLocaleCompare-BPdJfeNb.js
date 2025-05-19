@@ -1,0 +1,1 @@
+import{r}from"./index-qCb0-TeD.js";import{u as n}from"./useLanguage-Cw5TNOAB.js";const t={en:"en-US","zh-hant":"zh-Hant-u-co-zhuyin",th:"th-TH",ja:"ja-JP"};function s(){const a=n();return r.useCallback(function(o,e){return o.localeCompare(e,t[a])},[a])}export{s as u};

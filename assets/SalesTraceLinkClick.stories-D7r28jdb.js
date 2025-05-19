@@ -1,0 +1,4 @@
+import{d as a}from"./disableChromaticSnapshotParameter-ChGjLlBP.js";const e=()=>null;try{e.displayName="SalesTraceLinkClick",e.__docgenInfo={description:`Event for sales binding.
+
+- [Chat Commerce PRD](https://docs.google.com/document/d/16-yTyJ9qSY5OaMNwYRaEuYuR_zlodkCIQBmwemPORn8/edit?tab=t.0#bookmark=id.k1qcuu02e8j)
+- [Slack](https://chatbotgang.slack.com/archives/C03MSFGNT2A/p1730889101198679?thread_ts=1730885240.840789&cid=C03MSFGNT2A)`,displayName:"SalesTraceLinkClick",props:{channelId:{defaultValue:null,description:"",name:"channelId",required:!0,type:{name:"CantataTypes"}},memberId:{defaultValue:null,description:"",name:"memberId",required:!0,type:{name:"CantataTypes"}},type:{defaultValue:null,description:"",name:"type",required:!0,type:{name:"enum",value:[{value:'"copy"'},{value:'"insert"'}]}}}}}catch{}const r={component:e,parameters:a},l={},o=["DefaultStory"];export{l as DefaultStory,o as __namedExportsOrder,r as default};

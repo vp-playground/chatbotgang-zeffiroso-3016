@@ -1,0 +1,1 @@
+import{d as a}from"./define-D3i8B5cg.js";const e=a(),o=e([{code:"zh-hant",displayName:"繁體中文"},{code:"en",displayName:"English"},{code:"th",displayName:"ภาษาไทย"},{code:"ja",displayName:"日本語"}]);export{o as a};

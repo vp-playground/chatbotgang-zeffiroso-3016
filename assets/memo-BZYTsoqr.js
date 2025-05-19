@@ -1,0 +1,1 @@
+import{a as r}from"./assignDisplayName-lT0r0-ot.js";import{g as t}from"./getDisplayName-Cdt1H-sM.js";import{r as s}from"./index-qCb0-TeD.js";const d=function(...m){const[e]=m,a=t(e),o=s.memo(...m);return r(o,`memo(${a})`),o};export{d as m};
